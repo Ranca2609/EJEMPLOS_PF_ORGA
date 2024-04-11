@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.main-content {
+  display: flex;
+}
+
+.sidebar {
+  flex-direction: column;
+}
+
+.tic-tac-toe {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  margin: 20px;
+}
+
+.tic-tac-toe-cell {
+  width: 100px;
+  height: 100px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.figures button,
+.colors button {
+  display: block;
+  margin: 10px 0;
+}
+
+.cyan { background-color: cyan; }
+.magenta { background-color: magenta; }
+.yellow { background-color: yellow; }
